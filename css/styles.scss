@@ -1,0 +1,225 @@
+$bgColor: #f0F3bd;
+$logoColor: #A1C65D;
+$btnColor: #6B9814;
+$btnHoverColor: #4d6d0e;
+$subscribeBtnColor: #cecece;
+$subscribeBtnColorClick: #a8a8a8;
+
+
+// Preparations
+
+body {
+	background-image: url("../img/bg.png");
+	
+}
+
+.noGutters{
+	padding: 0px;
+	margin: 0px;
+}
+
+.defaultGutters{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container {
+	background: white;
+}
+
+a {
+	color: black;
+}
+
+
+main {
+	background: $bgColor;
+}
+
+	// Navbar
+
+
+	h4 {
+		color: #6B9814;
+	}
+
+	.oeko {
+		font-size: 1.2em;
+		color: #A1C65D;
+	}
+
+
+
+	.dk {
+		font-size: 1.2em;
+		color: #6B9814;
+	}
+
+
+// Header
+
+
+
+
+// Main Content
+
+
+main {
+
+	header{
+		.shoppingCart{
+			font-size: 1.3em;
+		}
+
+		.socialMedia{
+			display: flex;
+			font-size: 1.5rem;
+
+			a{
+				padding: 4px;
+			}
+
+			i {
+				justify-content: flex-start;
+
+				transition: color 0.2s !important;
+
+			}
+
+			.facebook:hover{
+				color: #3B5998;
+				
+			}
+
+			.instagram:hover {
+				color: #D72E83;
+			}
+
+			.twitter:hover{
+				color: #1DA1F2;
+			}
+
+			.youtube:hover{
+				color: #E62117;
+			}
+		}
+
+		.shopCart{
+			flex: 1;
+			justify-content: end;
+			padding: 4px;
+		}	
+	}
+
+	.newProducts {
+
+		div {
+
+			article{
+				
+				// Button hover og klik styling
+				button{
+					background: $btnColor;
+					border: 1px solid $btnColor;
+				}
+				button:hover{
+					background: $btnHoverColor;
+					border: 1px solid $btnHoverColor;
+				}
+				button:before{
+					background: $btnHoverColor;
+				}
+				button:after{
+					background: $btnHoverColor;
+				}
+			}
+
+		}
+	}
+
+	.buttonBuy {
+		padding: 5px 5rem 5px 5rem;
+		color: white;
+	}
+
+	.newArticle{
+		padding: 0 !important;
+		background: white;
+	}
+}
+
+
+// Footer
+
+
+
+
+
+
+
+
+
+
+footer {
+
+	.footerMedia {
+		color: $logoColor;
+		display: flex;
+
+		a {
+			transition: color 0.2s;
+			color: $logoColor;
+		}
+
+		.facebook:hover{
+			color: #3B5998;
+		}
+
+		.instagram:hover {
+			color: #D72E83;
+		}
+
+		.twitter:hover{
+			color: #1DA1F2;
+		}
+
+		.youtube:hover{
+			color: #E62117;
+		}
+	}
+
+	section{
+
+		ul{
+			margin: 0px;
+			padding: 0px;
+			li{
+				list-style: none;
+			}
+		}
+
+		i{
+			margin-right: 500px;
+		}
+	}
+	
+	.newsLetter{
+		
+		input {
+			border: 1.3px solid gray;
+			border-radius: 5px;
+		}
+		.subscribe {
+			background: $subscribeBtnColor;
+			box-shadow: none !important;
+		}
+
+		.subscribe:active {
+			background: $subscribeBtnColorClick;
+		}
+	}
+
+
+
+	
+}
