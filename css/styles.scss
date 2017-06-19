@@ -38,22 +38,31 @@ main {
 
 	// Navbar
 
+	nav{
+		ul {
+			padding: 0px !important;
 
-	h4 {
-		color: #6B9814;
+			li {
+				list-style: none;
+			}
+		}
+		h4 {
+			color: #6B9814;
+		}
+
+		.oeko {
+			font-size: 1.2em;
+			color: #A1C65D;
+		}
+
+
+
+		.dk {
+			font-size: 1.2em;
+			color: #6B9814;
+		}
 	}
 
-	.oeko {
-		font-size: 1.2em;
-		color: #A1C65D;
-	}
-
-
-
-	.dk {
-		font-size: 1.2em;
-		color: #6B9814;
-	}
 
 
 // Header
@@ -113,9 +122,16 @@ main {
 
 	.newProducts {
 
+		.jumbotron{
+			padding: 6px !important;
+			background: $btnColor;
+			color: white;
+		}
 		div {
 
 			article{
+
+
 				
 				// Button hover og klik styling
 				button{
@@ -142,10 +158,7 @@ main {
 		color: white;
 	}
 
-	.newArticle{
-		padding: 0 !important;
-		background: white;
-	}
+	
 }
 
 
