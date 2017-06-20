@@ -44,7 +44,7 @@ require "header.php";
 
 
 			<!-- content -->
-			
+
 			<section class="noGutters">
 				<img class="img-fluid" src="img/banner.jpg" alt="">
 				<h5 class="text-center mt-5 mb-5">ØKOshop.DK - Økologiske og bæredygtigt fremsillede kvalitetsvarer - nemt og hurtigt</h5>
@@ -64,48 +64,49 @@ require "header.php";
 					<div class="row">
 
 						<!-- Database artikler -->
-						<div class="newArticle">
-							
-							<?php require "getArticle.php" ?>
-						</div>
-							<!-- <article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
-								<img class="img-fluid" src="img/1.jpg" alt="">
-								<h3 class="mb-2">Produkt navn</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
-								<div class="text-center">
-									<button class="btn btn-green text-center buttonBuy" type="submit">KØB</button>
-								</div>
-							</article>
-							<article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
-								<img class=" img-fluid" src="img/2.jpg" alt="">
-								<h3 class="mb-2">Produkt navn</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
-								<div class="text-center">
-									<button class="btn btn-primary mb-4 buttonBuy" type="submit">KØB</button>
-								</div>
-							</article>
-							<article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
-								<img class="img-fluid" src="img/3.jpg" alt="">
-								<h3 class="mb-2">Produkt navn</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
-								<div class="text-center">
-									<button class="btn btn-primary mb-4  buttonBuy" type="submit">KØB</button>
-								</div>
-							</article> -->
-						</div>
-					</div>	
-				</section>
-			</main>
-		</div>
 
 
+						<?php require "getArticle.php" ?>
 
+					<!-- 	<article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
+							<img class="img-fluid" src="img/1.jpg" alt="">
+							<h3 class="mb-2">Produkt navn</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
+							<div class="text-center">
+								<button class="btn btn-green text-center buttonBuy" type="submit">KØB</button>
+							</div>
+						</article>
+						<article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
+							<img class=" img-fluid" src="img/2.jpg" alt="">
+							<h3 class="mb-2">Produkt navn</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
+							<div class="text-center">
+								<button class="btn btn-primary mb-4 buttonBuy" type="submit">KØB</button>
+							</div>
+						</article>
+						<article class="col-xs-3 col-sm-6 col-md-4 newArticle noGutters">
+							<img class="img-fluid" src="img/3.jpg" alt="">
+							<h3 class="mb-2">Produkt navn</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sequi, magnam rem, possimus expedita saepe non voluptatum quae vitae natus debitis! Perferendis alias earum pariatur repellat eaque totam in a.</p>
+							<div class="text-center">
+								<button class="btn btn-primary mb-4  buttonBuy" type="submit">KØB</button>
+							</div> -->
+						</article>
+					</div>
+				</div>
 
-		<!-- Footer -->
-		<?php 
-		require "footer.php";
-		?>
-		
+			</section>
+		</main>
 	</div>
+
+
+
+
+	<!-- Footer -->
+	<?php 
+	require "footer.php";
+	?>
+
+</div>
 </body>
 </html>
