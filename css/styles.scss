@@ -27,6 +27,8 @@ body {
 	background: white;
 }
 
+
+
 a {
 	color: black;
 }
@@ -76,6 +78,9 @@ main {
 main {
 
 	header{
+		
+
+
 		.shoppingCart{
 			font-size: 1.3em;
 		}
@@ -120,6 +125,20 @@ main {
 		}	
 	}
 
+
+
+	// FORM BUTTON STYLING
+
+	.submitButton{
+		background: $btnColor;
+		border: 1px solid $btnColor;
+		color: white;
+
+	}
+
+
+
+
 	.newProducts {
 
 		.jumbotron{
@@ -152,6 +171,9 @@ main {
 
 		}
 	}
+
+
+
 
 	.buttonBuy {
 		padding: 5px 5rem 5px 5rem;
