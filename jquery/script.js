@@ -1,12 +1,12 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 	
 
-	$("#login").hide();
+// 	$("#login").hide();
 
-    $(".log-ind").click(function(){
+//     $(".log-ind").click(function(){
 
-        $("#login").toggle(600);
+//         $("#login").toggle(600);
         
 
-    });
-});
+//     });
+// });

@@ -14,10 +14,18 @@
 					</ul>
 					<div id="login">
 						<hr>
+						
+
+						<?php 
+						session_start();
+						if(isset($_SESSION['username'])){
+							echo "Velkommen ".$_SESSION['username']. "";
+									// echo "<a class='btn ' href='logOut.php?logOut=true'>Log ud</a>";
+						} else{?>
 						<form class="form-horizontal" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
 							<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Brugernavn</label>
+								<label for="username" class="cols-sm-2 control-label">Brugernavn</label>
 								<div class="cols-sm-10">
 									<div class="input-group">
 										<input type="text" class="form-control" name="username" id="username"  placeholder="Brugernavn"/>
@@ -36,9 +44,11 @@
 
 							<div class="form-group ">
 								<input type="submit" class="btn btn-primary btn-lg btn-block login-button" value="login">
-
-							</div>
-						</form>
-					</div>
-				</section>
-			</nav>
+								<?php
+							}
+							?>
+						</div>
+					</form>
+				</div>
+			</section>
+		</nav>

@@ -1,5 +1,7 @@
-<?php 
+<?php
 require "header.php";
+
+
 ?>
 <body>
 	<div class="container">

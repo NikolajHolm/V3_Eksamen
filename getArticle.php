@@ -10,7 +10,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 	// Formater dato så det er læseligt
 	$postDate = date("d-M-Y H:i", $row["postDate"]); 
 	?>
-		<article class="col-xs-3 col-sm-6 col-md-4 mt-5 whiteBackground">
+		<article class="col-xs-3 col-sm-6 col-md-4 mt-5">
 			<img class="img-fluid" src="img/<?php echo $row['imgSrc'] ?>" alt="<?php $row['imgAlt'] ?>"  >
 			<h3 class="mb-2"><?php echo $row['heading'] ?></h3>
 			<hr>
